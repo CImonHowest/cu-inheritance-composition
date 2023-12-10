@@ -10,7 +10,7 @@ namespace Pre.Animal.Comopsition.Core
     {
         public string Color { get; set; }
 
-        public void Eat()
+        public virtual void Eat()
         {
             Console.WriteLine("Animal is eating");
         }
